@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/value-props",
+      "handler": "value-prop.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/value-props/count",
+      "handler": "value-prop.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/value-props/:id",
+      "handler": "value-prop.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/value-props",
+      "handler": "value-prop.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/value-props/:id",
+      "handler": "value-prop.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/value-props/:id",
+      "handler": "value-prop.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "string"
+    },
+    "value_props": {
+      "collection": "value-prop"
+    }
+  }
+}
